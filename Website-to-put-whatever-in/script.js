@@ -25,6 +25,10 @@ function fortnite() {
 
   let audio2 = new Audio("Record (online-voice-recorder.com).mp3");
 
+  let omgHidden = document.getElementById("omgFortnite");
+
+  omgHidden.classList.remove("hidden");
+
   audio.play();
   audio2.play();
 }
