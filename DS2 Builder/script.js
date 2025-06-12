@@ -116,7 +116,7 @@ function enduDown() {
 }
 
 function vitUp() {
-  if ( currentVit!= 93) {
+  if (currentVit != 93) {
     currentVit++;
     statsDisplayUpdate();
     displayUpdate();
@@ -125,125 +125,118 @@ function vitUp() {
 }
 
 function vitDown() {
-  if ( > 0) {
-    --;
+  if (currentVit > 0) {
+    currentVit--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-function Up() {
-  if ( != 93) {
-    ++;
+function attuUp() {
+  if (currentAttu != 93) {
+    currentAttu++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function attuDown() {
+  if (currentAttu > 0) {
+    currentAttu--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-
-function Up() {
-  if ( != 93) {
-    ++;
+function strUp() {
+  if (currentStr != 93) {
+    currentStr++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function strDown() {
+  if (currentStr > 0) {
+    currentStr--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-
-function Up() {
-  if ( != 93) {
-    ++;
+function dexUp() {
+  if (currentDex != 93) {
+    currentDex++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function dexDown() {
+  if (currentDex > 0) {
+    currentDex--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-
-function Up() {
-  if ( != 93) {
-    ++;
+function adaUp() {
+  if (currentAda != 93) {
+    currentAda++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function adaDown() {
+  if (currentAda > 0) {
+    currentAda--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-
-function Up() {
-  if ( != 93) {
-    ++;
+function intUp() {
+  if (currentInt != 93) {
+    currentInt++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function intDown() {
+  if (currentInt > 0) {
+    currentInt--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
 
-
-function Up() {
-  if ( != 93) {
-    ++;
+function fthUp() {
+  if (currentFth != 93) {
+    currentFth++;
     statsDisplayUpdate();
     displayUpdate();
     levelUp();
   }
 }
 
-function Down() {
-  if ( > 0) {
-    --;
+function fthDown() {
+  if (currentFth > 0) {
+    currentFth--;
     statsDisplayUpdate();
     displayUpdate();
     levelDown();
   }
 }
-
-
