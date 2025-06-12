@@ -1,7 +1,6 @@
 body {
   font-family: sans-serif;
   background-color: #303030;
-  box-sizing: border-box;
 }
 
 img {
@@ -20,9 +19,32 @@ img {
   display: inline-block;
 }
 
-div {
-  text-align: center;
+.stat {
   display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 5px 0;
+}
+
+.stat img {
+  width: 50px;
+}
+
+.label {
+  margin-right: 20px;
+  width: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.level {
+  min-width: 20px;
+  text-align: center;
 }
 
 button {
@@ -30,14 +52,18 @@ button {
   color: white;
   margin: 5px;
   width: 30px;
-  text-align: center;
   font-size: 5px;
   cursor: pointer;
-  padding: auto;
   border-color: rgb(34, 34, 34);
   border-style: solid;
 }
 
 h1 {
   padding: 0.1rem;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
 }
