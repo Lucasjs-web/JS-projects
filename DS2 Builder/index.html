@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="numbers.js" async defer></script>
+
+    <script src="script.js" async defer></script>
+  </head>
+  <body>
+    <div id="block1">
+      <div class="level">
+        <img src="images/mind icon.png" />
+        <h1 id="title">LV <span id="level_number">1</span></h1>
+      </div>
+      <div class="soul">
+        <img src="images/soul icon.png" />
+        <span id="souls_total">500</span>
+      </div>
+      <div class="level_up">
+        <img src="images/level up icon.png" />
+        <h1><span id="lvlup_amount">500</span></h1>
+      </div>
+      <div class="vigor">
+        <img src="images/vigor icon.png" />
+        <h1>Vigor</h1>
+        <button onclick="vigorUp()">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <button onclick="vigorDown()">
+          <i class="fa-solid fa-arrow-down"></i>
+        </button>
+        <span id="vig_level">6</span>
+      </div>
+      <div class="endurance">
+        <img src="images/endurance icon.png" />
+        <h1>Endurance</h1>
+        <button onclick="enduUp()"><i class="fa-solid fa-arrow-up"></i></button>
+        <button onclick="enduDown()">
+          <i class="fa-solid fa-arrow-down"></i>
+        </button>
+        <span id="endu_level">6</span>
+      </div>
+      <div class="vitality">
+        <img src="images/vitality icon.png" />
+        <h1>Vitality</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="vit_level">6</span>
+      </div>
+      <div class="attunement">
+        <img src="images/attunement icon.png" />
+        <h1>Attunement</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="attu_level">6</span>
+      </div>
+      <div class="strength">
+        <img src="images/strength icon.png" />
+        <h1>Strength</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="str_level">6</span>
+      </div>
+      <div class="dexterity">
+        <img src="images/dexterity icon.png" />
+        <h1>Dexterity</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="dex_level">6</span>
+      </div>
+      <div class="adaptability">
+        <img src="images/adaptability icon.png" />
+        <h1>Adaptability</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="ada_level">6</span>
+      </div>
+      <div class="intelligence">
+        <img src="images/intelligence icon.png" />
+        <h1>Intelligence</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="int_level">6</span>
+      </div>
+      <div class="faith">
+        <img src="images/faith icon.png" />
+        <h1>Faith</h1>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+        <button><i class="fa-solid fa-arrow-down"></i></button>
+        <span id="fth_level">6</span>
+      </div>
+    </div>
+  </body>
+</html>
