@@ -8,6 +8,20 @@ const vigorNumber = document.getElementById("vig_level");
 
 const enduNumber = document.getElementById("endu_level");
 
+const vitNumber = document.getElementById("vit_level");
+
+const attuNumber = document.getElementById("attu_level");
+
+const strNumber = document.getElementById("str_level");
+
+const dexNumber = document.getElementById("dex_level");
+
+const adaNumber = document.getElementById("ada_level");
+
+const intNumber = document.getElementById("int_level");
+
+const fthNumber = document.getElementById("fth_level");
+
 let currentLevel = 0;
 
 let currentSoulsTotal = 0;
@@ -18,9 +32,30 @@ let currentVigor = 0;
 
 let currentEndu = 0;
 
+let currentVit = 0;
+
+let currentAttu = 0;
+
+let currentStr = 0;
+
+let currentDex = 0;
+
+let currentAda = 0;
+
+let currentInt = 0;
+
+let currentFth = 0;
+
 function statsDisplayUpdate() {
   vigorNumber.innerHTML = vigor[currentVigor];
   enduNumber.innerHTML = endurance[currentEndu];
+  vitNumber.innerHTML = vitality[currentVit];
+  attuNumber.innerHTML = attunement[currentAttu];
+  strNumber.innerHTML = strength[currentStr];
+  dexNumber.innerHTML = dexterity[currentDex];
+  adaNumber.innerHTML = adaptability[currentAda];
+  intNumber.innerHTML = intelligence[currentInt];
+  fthNumber.innerHTML = faith[currentFth];
 }
 
 function displayUpdate() {
@@ -79,3 +114,136 @@ function enduDown() {
     levelDown();
   }
 }
+
+function vitUp() {
+  if ( currentVit!= 93) {
+    currentVit++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function vitDown() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
+function Up() {
+  if ( != 93) {
+    ++;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelUp();
+  }
+}
+
+function Down() {
+  if ( > 0) {
+    --;
+    statsDisplayUpdate();
+    displayUpdate();
+    levelDown();
+  }
+}
+
+
