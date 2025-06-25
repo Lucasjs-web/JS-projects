@@ -1,0 +1,57 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: grey;
+}
+
+button {
+  background-color: darkgrey;
+  border: none;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#goPlay {
+  position: absolute;
+  text-align: center;
+  font-size: 200px;
+}
+
+.question {
+  font-size: 60px;
+}
+
+button h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#winDiv {
+  position: absolute;
+  font-size: 200px;
+}
+
+#winDiv input {
+  font-size: 200px;
+}
+
+#submission {
+  font-size: 200px;
+  text-align: center;
+}
+
+#badbad {
+  top: 20%;
+  right: 20%;
+  font-size: 170px;
+  position: absolute;
+}
+
+#goodgood {
+  top: 20%;
+  right: 20%;
+  font-size: 170px;
+  position: absolute;
+}
